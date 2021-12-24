@@ -6,6 +6,8 @@ output: word_document
 ---
 
 ```{r setup, include=FALSE}
+a<-34
+print(a)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
